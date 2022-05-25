@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | QR code component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <img class="qr" src="images/image-qr-code.png" />
+      <div class="txt">
+        <span class="heading"
+          >Improve your front-end skills by building projects<br
+        /></span>
+        <div class="parag">
+          <span class="para">
+            Scan the QR code to visit Frontend Mentor and take your coding
+            skills to the next level
+          </span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: hsl(212, 45%, 89%);
+    max-width: 1440px;
+
+    font-family: "Outfit", sans-serif;
+  }
+  .heading {
+    margin-top: 0.5rem;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    background-color: hsl(0, 0%, 100%);
+  }
+  .parag{
+    background-color: hsl(0, 0%, 100%);
+    padding: .8rem .5rem;
+  }
+  .para {
+    background-color: hsl(0, 0%, 100%);
+    color: 
+    hsl(220, 15%, 55%);
+    
+    
+  }
+  .container {
+    margin: 50vh 50vw;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    padding: 1rem;
+
+    border-radius: 1.2rem;
+    background-color: hsl(0, 0%, 100%);
+  }
+  .txt {
+    background-color: hsl(0, 0%, 100%);
+    text-align: center;
+    padding: 1.5rem 0.5rem;
+    position: relative;
+  
+  }
+  .qr {
+    width: 300px;
+    border-radius: 0.5rem;
+  }
+</style>
